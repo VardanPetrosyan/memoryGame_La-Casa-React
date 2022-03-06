@@ -1,0 +1,49 @@
+.la-casa-game__start-page.start-page {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    /* background-image: url("https://wallpapercave.com/wp/wp6412167.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat; */
+    align-items: flex-start;
+}
+.start-page__playgame {
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.start-page__new-buttons {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-gap: 10px;
+    grid-template-rows: 30px 30px;
+    grid-template-columns: minmax(100px,150px);
+}
+.start-page__play-game-text p{
+    color: white;
+    font-size: 30px;
+}
+button.start-page__new-game-btn ,.start-page__new-player-btn{
+    background-color: #e4223a;
+    border: 0;
+    box-shadow: 0px 0px 11px 0px black;
+    cursor: pointer;
+    font-family: monospace;
+    color: black;
+    transition: .2s;
+}
+button.start-page__new-game-btn:hover ,.start-page__new-player-btn:hover {
+    box-shadow: 0px 0px 11px 0px #615757;
+    color: white;
+
+}
+button.start-page__new-game-btn:active,.start-page__new-player-btn:active{
+    color: black;
+    box-shadow: inset 0px 0px 11px 0px black;
+}

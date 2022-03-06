@@ -1,0 +1,31 @@
+.tray-box,.info-box{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: #363030ed;
+}
+.info-box{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.right-bar{
+    text-align: center;
+}
+.star-box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: #363030ed;
+    position: relative;
+}
+.replay{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+    background-color: #0000;
+    cursor: pointer;
+}
+.replay svg{
+    width: 28px;
+}

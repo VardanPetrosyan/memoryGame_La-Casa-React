@@ -1,0 +1,27 @@
+.la-casa-game {
+    width: 100%;
+    height: 100vh;
+    background: #4a4545;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(300px,500px);
+    grid-template-rows: 100%;
+    align-items: center;
+    background: rgb(228,34,58);
+    background: linear-gradient(90deg, rgba(228,34,58,1) 0%, rgba(208,211,210,1) 48%, rgba(17,17,17,1) 100%);
+}
+.la-casa-game__box {
+    position: relative;
+    border: 1px solid;
+    width: 100%;
+    height: 98%;
+    background-image: url(https://wallpapercave.com/wp/wp6412167.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: minmax(300px,500px);
+    grid-template-rows: minmax(300px,500px) 40px auto;
+    background-color: #111111;
+    border-radius: 5px;
+}
